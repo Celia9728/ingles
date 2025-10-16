@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: red;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-image: url(unnamed.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: blue;
+  color: aliceblue;
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
